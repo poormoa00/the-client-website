@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+.container {
+    max-width: 478px;
+    margin: 0 auto;
+}
+
+.date-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #888;
+}
+
+.date-header div {
+    width: 40px;
+    text-align: center;
+}
+
+
+.timeline {
+    display: flex;
+}
+
+.time-labels {
+    flex: 0 0 65px;
+    text-align: center;
+    padding-right: 1.5rem;
+    font-size: .8rem;
+    color: #888;
+    border-right: 1px solid #ddd;
+}
+
+.time-labels div {
+    margin-bottom: 60px;
+}
+
+.events {
+    flex-grow: 1;
+    padding-left: 8px;
+}
+
+.event-card {
+    background-color: white;
+    border-radius: 6px;
+    width: 400px;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 7px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.event-details {
+    display: flex;
+    align-items: center;
+}
+
+.event-logo img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-bottom: 80px;
+}
+
+.event-one .event-logo img{
+    margin-top: -140px;
+}
+
+.event-two .event-logo img{
+    margin-top: 40px;
+}
+
+.event-three .event-logo img{
+margin-top: -20px;
+}
+
+.event-four .event-logo img{
+    margin-top: -30px;
+}
+
+.event-five .event-logo img{
+    margin-top: 35px;
+}
+
+.event-six .event-logo img{
+    margin-top: 40px;
+}
+
+.event-seven .event-logo img{
+    margin-top: -35px;
+}
+
+.event-eight .event-logo img{
+    margin-top: 40px;
+}
+
+.event-nine .event-logo img{
+    margin-top: -40px;
+}
+
+.event-info {  
+    margin-left: 10px;
+}
+
+.event-one .event-info { /* om de tekst individueel van elke 
+    eventcard te wijzigen */
+    margin-top: -15px;
+}
+
+.event-two .event-info {
+    margin-top: 130px;
+}
+
+.event-three .event-info {
+margin-top: 60px;
+}
+
+.event-four .event-info {
+    margin-top: 55px;
+}
+
+.event-five .event-info {
+    margin-top: 130px;
+}
+
+.event-six .event-info {
+    margin-top: 165px;
+}
+
+.event-seven .event-info {
+    margin-top: 63px;
+}
+
+.event-eight .event-info {
+    margin-top: 113px;
+}
+
+.event-nine .event-info {
+    margin-top: 60px;
+}
+
+
+
+.event-info h3 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+    height: 18px;
+}
+
+.event-info p {
+    margin: 5px 0 10px;
+    font-size: 12px;
+    color: #666;
+}
+
+.event-meta {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    color: #888;
+}
+
+.event-meta svg {
+    margin-right: 5px;
+}
+
+.event-meta div {
+    margin-right: 15px;
+}
+
+.more-button {
+    background-color: #e40058;
+    color: white;
+    border-radius: 50%;  /* Perfect circle */
+    width: 1.6rem;
+    height: 1.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 10px;  /* Position it inside the card on the right */
+    bottom: 2px;  /* Align to the bottom */
+    transform: translateY(-50%);  /* Correct vertical centering */
+}
+
+.event-one {
+    height: 303px;
+}
+
+.event-two {
+    height: 145px;
+}
+
+.event-three {
+    height: 215px;
+}
+
+.event-four {
+height: 219px;
+}
+
+.event-five {
+height: 145px;
+}
+
+.event-six {
+height: 142px;
+}
+
+.event-seven {
+height: 217px;
+}
+
+.event-eight {
+height: 144px;
+}
+
+.event-nine {
+height: 225px;
+}
+
+@media (max-witdh: 700px){
+    .event-card {
+        flex-direction: column;
+    }
+}
