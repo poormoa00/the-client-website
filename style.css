@@ -187,16 +187,16 @@ margin-top: 60px;
 .more-button {
     background-color: #e40058;
     color: white;
-    border-radius: 50%;  /* Perfect circle */
+    border-radius: 50%;  
     width: 1.6rem;
     height: 1.6rem;
     display: flex;
     align-items: center;
     justify-content: center;
     position: absolute;
-    right: 10px;  /* Position it inside the card on the right */
-    bottom: 2px;  /* Align to the bottom */
-    transform: translateY(-50%);  /* Correct vertical centering */
+    right: 10px;  
+    bottom: 2px;  
+    transform: translateY(-50%); 
 }
 
 .event-one {
